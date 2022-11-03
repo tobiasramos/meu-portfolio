@@ -1,20 +1,20 @@
-const projeto = document.getElementsByClassName("projetos")
-const setaVoltar = document.getElementById('seta-voltar')
-const setaAvancar = document.getElementById('seta-avancar')
+const projeto = document.getElementsByClassName("projetos");
+const setaVoltar = document.getElementById('seta-voltar');
+const setaAvancar = document.getElementById('seta-avancar');
 
-let projetoAtual = 0
+let projetoAtual = 0;
 
 setaAvancar.addEventListener("click", function () {
     if(projetoAtual === projeto.length - 1) {
-        return
+        return;
     }
-    esconderProjetoAberto()
+    esconderProjetoAberto();
 
-    projetoAtual++
+    projetoAtual++;
 
-    projeto[projetoAtual].classList.add("mostrar")
+    projeto[projetoAtual].classList.add("mostrar");
 
-    mostrarOuEsconderSetas()
+    mostrarOuEsconderSetas();
 })
 
 setaVoltar.addEventListener("click", function () {
@@ -26,18 +26,18 @@ setaVoltar.addEventListener("click", function () {
     projetoAtual--;
 
     esconderProjetoAberto();
-    mostrarProjeto()
+    mostrarProjeto();
     mostrarOuEsconderSetas();
 
 })
 
 function mostrarProjeto() {
-    projeto[projetoAtual].classList.add("mostrar")
+    projeto[projetoAtual].classList.add("mostrar");
 }
 
 function esconderProjetoAberto() {
-    const projetoAberto = document.querySelector(".mostrar")
-    projetoAberto.classList.remove("mostrar")
+    const projetoAberto = document.querySelector(".mostrar");
+    projetoAberto.classList.remove("mostrar");
 }
 
 function mostrarOuEsconderSetas() {

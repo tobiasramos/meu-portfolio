@@ -4,7 +4,7 @@
     height: 75vh;
 }
 
-.projetos {
+.meus-projetos .projetos {
     display: flex;
     position: absolute;
     opacity: 0;
@@ -17,7 +17,7 @@
     margin-right: 50px;
 }
 
-.projetos.mostrar {
+.meus-projetos .projetos.mostrar {
     opacity: 1;
 }
 
