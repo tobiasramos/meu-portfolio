@@ -33,32 +33,6 @@
     margin-bottom: 50px;
 }
 
-.seta-voltar, .seta-avancar {
-    position: absolute;
-    z-index: 1;
-    cursor: pointer;
-    margin-top: 160px;
-}
-
-.seta-voltar {
-    left: 2%;
-    transform: rotateY(180deg);
-}
-
-.seta-avancar {
-    right: 2%;
-}
-
-.seta-voltar .imagem-seta, .seta-avancar .imagem-seta {
-    width: 50px;
-    height: 50px;
-}
-
-.opacidade {
-    opacity: 0.6;
-    cursor: default;
-}
-
 @media (max-width: 1300px) {
     .projetos .projeto img {
         width: 460px;
