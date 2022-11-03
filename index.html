@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/cabecalho.css">
+    <link rel="stylesheet" href="src/css/projetos.css">
+</head>
+
+<body>
+    <header class="cabecalho-container">
+
+        <nav class="cabecalho">
+            <input type="checkbox" id="menu-hamburguer">
+
+            <label for="menu-hamburguer">
+                <div class="menu">
+                    <span class="hamburguer"></span>
+                </div>
+            </label>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#perfil">Perfil</a></li>
+                <li><a href="#sobre-mim">Sobre mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#meus-projetos">Meus projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <div class="perfil" id="perfil">
+            <div class="descricao">
+                <p class="cargo">Front-end web development junior</p>
+                <p class="nome">Tobias Ramos</p>
+            </div>
+
+            <img src="src/img/perfil.png" alt="Foto de perfil">
+
+            <div class="resumo">
+                <p>Me chamo Tobias, sou graduado em Sistemas de Informação. Atualmente estou
+                    focado no desenvolvimento Front-end.
+                </p>
+            </div>
+        </div>
+
+        <div class="sobre-mim" id="sobre-mim">
+            <h2>Sobre mim</h2>
+            <p>Sou um desenvolvedor Front-end Júnior, buscando uma vaga de emprego. Me dedico diariamente em
+                programação,
+                participo de comunidades voltadas a esse assunto como a DevEmDobro e a Rocketseat. Faço aplicações com
+                base em sites
+                da internet, como por exemplo o FrontEnd Mentor ou das comunidades que estou inserido. Dentro desses
+                projetos, faço o uso da linguagem de programação JavaScript para parte lógica, e
+                utilizo a linguagem de marcação HTML e de estilização CSS para a conclusão deles. Tenho aplicações feito
+                com a
+                biblioteca React, exemplo foi de uma API que consumi para pegar dados de usuário do GitHub. Me sinto
+                prepara para
+                o mercado, sou uma pessoa comunicativa, gosto de ajudar quem está ao meu redor e quero muito conseguir
+                minha
+                vaga como Front-end Júnior.
+            </p>
+        </div>
+
+        <div class="habilidades" id="habilidades">
+            <h2>Habilidades</h2>
+            <div class="habilidades-container">
+                <a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">
+                    <div>
+                        <img src="src/img/html.png" alt="Logo HTML">
+                        <h3>HTML5</h3>
+                    </div>
+                </a>
+
+                <a href="https://www.w3schools.com/css/css_intro.asp" target="_blank">
+                    <div>
+                        <img src="src/img/css.png" alt="Logo CSS">
+                        <h3>CSS3</h3>
+                    </div>
+                </a>
+
+                <a href="https://www.w3schools.com/js/js_intro.asp" target="_blank">
+                    <div>
+                        <img src="src/img/js.png" alt="Logo JavaScript">
+                        <h3>Java Script</h3>
+                    </div>
+                </a>
+
+                <a href="https://pt-br.reactjs.org/docs/getting-started.html" target="_blank">
+                    <div>
+                        <img src="src/img/react.png" alt="Logo React">
+                        <h3>REACT</h3>
+                    </div>
+                </a>
+
+                <a href="https://git-scm.com/" target="_blank">
+                    <div>
+                        <img src="src/img/git.png" alt="Logo Git">
+                        <h3>GIT</h3>
+                    </div>
+                </a>
+
+                <a href="https://github.com/" target="_blank">
+                    <div>
+                        <img src="src/img/github.png" alt="Logo GitHub">
+                        <h3>GitHub</h3>
+                    </div>
+                </a>
+
+
+            </div>
+        </div>
+
+        <div class="meus-projetos" id="meus-projetos">
+            <h2>Meus projetos</h2>
+
+            <a id="seta-voltar" class="seta-voltar opacidade">
+                <img class="imagem-seta" src="src/img/seta.png" alt="Seta voltar">
+            </a>
+
+            <div class="projetos mostrar">
+                <div class="projeto projeto-1">
+                    <div class="image-projeto">
+                        <a href="https://tobiasramos.github.io/landing-page-com-grid-agencia-xyz-main/"></a>
+                        <img src="src/img/projeto-1.png" alt="Foto do primeiro projeto">
+                    </div>
+                    <div class="nome-projeto">
+                        <a href="https://github.com/tobiasramos/landing-page-com-grid-agencia-xyz-main.git"
+                            target="_blank">
+                            <h3>Agencia XYZ</h3>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="projeto projeto-2">
+                    <div class="image-projeto">
+                        <a href="https://tobiasramos.github.io/secao-recurso-cartao/" target="_blank">
+                            <img src="src/img/projeto-2.png" alt="Foto do segundo projeto">
+                        </a>
+                    </div>
+                    <div class="nome-projeto">
+                        <a href="https://github.com/tobiasramos/secao-recurso-cartao.git" target="_blank">
+                            <h3>Seção de prova social</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projetos">
+                <div class="projeto projeto-3">
+                    <div class="image-projeto">
+                        <a href="https://tobiasramos.github.io/secao-recurso-cartao/" target="_blank"> <img
+                                src="src/img/projeto-3.png" alt="Foto do primeiro projeto">
+                        </a>
+                    </div>
+                    <div class="nome-projeto">
+                        <a href="https://github.com/tobiasramos/secao-recurso-cartao.git" target="_blank">
+                            <h3>Seção de recursos</h3>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="projeto projeto-4">
+                    <div class="image-projeto">
+                        <a href="https://tobiasramos.github.io/componente-de-classificacao-interativo/" target="_blank">
+                            <img src="src/img/projeto-4.png" alt="Foto do segundo projeto">
+                        </a>
+                    </div>
+                    <div class="nome-projeto">
+                        <a href="https://github.com/tobiasramos/componente-de-classificacao-interativo.git"
+                            target="_blank">
+                            <h3>Seção de avaliação</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <a id="seta-avancar" class="seta-avancar">
+                <img class="imagem-seta" src="src/img/seta.png" alt="Seta avançar">
+            </a>
+        </div>
+    </div>
+
+    <footer class="contato" id="contato">
+        <h2>Contato</h2>
+        <div class="minhas-redes">
+            <ul>
+                <li>
+                    <a href="https://github.com/tobiasramos" target="_blank">
+                        <img class="logo" src="src/img/github.png" alt="Logo github">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.linkedin.com/in/tobias-ramos-622228214/" target="_blank">
+                        <img class="logo" src="src/img/linkedin.png" alt="Logo linkedin">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="mailto:tobiasramossilva@gmail.com?subject=link HTML">
+                        <img class="logo" src="src/img/gmail.png" alt="Logo gmail">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="src/curriculo/Currículo.pdf" target="iframe_download">
+                        <img class="logo" src="src/img/cv.png" alt="Logo currículo">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <address class="rodape">Criado por Tobias Ramos © 2022.</address>
+    </footer>
+
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>

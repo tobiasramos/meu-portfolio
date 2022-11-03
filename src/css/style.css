@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    color: #000000;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px auto;
+    font-size: 32px;
+    color: #ED8663;
+}
+
+.container {
+    background-color: #EAE7E0;
+}
+
+/*-----Perfil-----*/
+
+.perfil {
+    display: flex;
+    margin-top: 40px;
+    background-color: #fff;
+}
+
+.perfil img {
+    width: 500px;
+    height: 600px;
+}
+
+.descricao {
+    margin-top: 90px;
+    margin-left: 40px;
+    height: 260px;
+}
+
+.descricao .cargo {
+    width: 389px;
+    height: 28px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.descricao .nome {
+    width: 290px;
+    height: 121px;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 121px;
+    font-family: 'Radley';
+}
+
+.resumo {
+    margin-top: 100px;
+    margin-left: 70px;
+    width: 278px;
+    height: 168px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    border-left: black;
+}
+
+/*-----Sobre mim-----*/
+.sobre-mim p {
+    height: 100%;
+    text-align: center;
+    margin: 45px auto;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/*-----Habilidades-----*/
+.habilidades-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.habilidades-container a {
+    margin: auto auto;
+    text-align: center;
+}
+
+.habilidades-container a div img {
+    width: 138px;
+    height: 138px;
+}
+
+
+/*-----Contato-----*/
+.contato {
+    background-color: #fff;
+}
+
+.minhas-redes ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+}
+
+.minhas-redes ul li a {
+    margin-left: 185px;
+}
+
+.logo {
+    width: 109px;
+    height: 109px;
+}
+
+.rodape {
+    margin: 100px auto;
+    width: 363px;
+    height: 28px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+
+/*----------Responsividade----------*/
+@media (max-width: 1250px) {
+    .minhas-redes ul li a {
+        margin-left: 130px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .minhas-redes ul li a {
+        margin-left: 100px;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .perfil {
+        display: block;
+        text-align: center;
+    }
+
+    .perfil .descricao p {
+        margin: auto auto;
+    }
+
+    .perfil img {
+        margin-top: -100px;
+    }
+
+    .perfil .resumo {
+        margin: 20px auto;
+    }
+
+    .minhas-redes {
+        width: 310px;
+        margin: auto auto;
+    }
+
+    .minhas-redes ul {
+        display: block;
+    }
+
+    .minhas-redes ul li {
+        margin-top: 30px;
+    }
+}
