@@ -7,8 +7,7 @@
 .meus-projetos .projetos {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 50px;
-    margin-left: 160px;
+    justify-content: center;
 }
 
 .projetos .projeto {
@@ -42,48 +41,6 @@
     .projetos .projeto .image-projeto img {
         width: 360px;
         height: 200px;
-    }
-}
-
-@media (max-width: 1000px) {
-    .projetos .projeto .image-projeto img {
-        width: 320px;
-        height: 180px;
-    }
-}
-
-@media (max-width: 920px) {
-    .projetos .projeto .image-projeto img {
-        width: 280px;
-        height: 150px;
-    }
-}
-
-@media (max-width: 840px) {
-    .projetos .projeto .image-projeto img {
-        width: 250px;
-        height: 130px;
-    }
-}
-
-@media (max-width: 770px) {
-    .projetos .projeto .image-projeto img {
-        width: 220px;
-        height: 120px;
-    }
-}
-
-@media (max-width: 700px) {
-    .projetos .projeto .image-projeto img {
-        width: 200px;
-        height: 100px;
-    }
-}
-
-
-@media (max-width: 660px) {
-    .projetos .projeto {
-      margin: auto auto;
     }
 }
 

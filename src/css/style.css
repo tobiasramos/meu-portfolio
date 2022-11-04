@@ -167,3 +167,17 @@ h2 {
         margin-top: 30px;
     }
 }
+
+@media (max-width: 480px) {
+    .descricao .cargo {
+        font-size: 20px;
+    }
+
+    .descricao .nome {
+        font-size: 80px;
+    }
+
+    .resumo {
+        font-size: 20px;
+    }
+}
