@@ -58,7 +58,7 @@ h2 {
     margin-top: 100px;
     margin-left: 70px;
     width: 300px;
-    height: 175px;
+    height: 100%;
     font-weight: 600;
     font-size: 24px;
     padding-left: 10px;
@@ -192,5 +192,10 @@ h2 {
     .perfil img {
         width: 350px;
         height: 450px;
+    }
+
+    .rodape {
+        font-size: 20px;
+        text-align: center;
     }
 }

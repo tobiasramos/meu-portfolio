@@ -31,6 +31,10 @@
         height: 100%;
     }
 
+    .projetos .projeto {
+        margin: auto auto;
+    }
+
     .projetos .projeto .image-projeto img {
         width: 400px;
         height: 200px;
