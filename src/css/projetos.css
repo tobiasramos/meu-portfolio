@@ -33,6 +33,7 @@
 
     .projetos .projeto {
         margin: auto auto;
+        padding: 10px;
     }
 
     .projetos .projeto .image-projeto img {
