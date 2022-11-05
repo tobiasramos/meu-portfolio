@@ -130,17 +130,14 @@ h2 {
     }
 }
 
-@media (max-width: 1000px) {
-    .minhas-redes ul li a {
-        margin-left: 100px;
-    }
-}
-
-
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
     .perfil {
         display: block;
         text-align: center;
+    }
+    
+    .perfil .descricao {
+        margin-bottom: 85px;
     }
 
     .perfil .descricao p {
@@ -155,11 +152,7 @@ h2 {
     .perfil .resumo {
         margin: 20px auto;
     }
-
-    .sobre-mim p {
-        margin-top: -20px;
-    }
-
+    
     .minhas-redes {
         width: 310px;
         margin: auto auto;
