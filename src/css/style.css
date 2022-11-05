@@ -156,6 +156,10 @@ h2 {
         margin: 20px auto;
     }
 
+    .sobre-mim p {
+        margin-top: -20px;
+    }
+
     .minhas-redes {
         width: 310px;
         margin: auto auto;
