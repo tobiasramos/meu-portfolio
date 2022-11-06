@@ -98,14 +98,18 @@ h2 {
     background-color: #fff;
 }
 
-.minhas-redes ul {
+.minhas-redes {
+    margin-top: 56px;
     display: flex;
     justify-content: center;
-    margin-top: 56px;
+}
+
+.minhas-redes ul {
+    display: flex;
 }
 
 .minhas-redes ul li a {
-    margin-left: 185px;
+    padding: 90px;
 }
 
 .logo {
@@ -124,12 +128,6 @@ h2 {
 
 
 /*----------Responsividade----------*/
-@media (max-width: 1250px) {
-    .minhas-redes ul li a {
-        margin-left: 130px;
-    }
-}
-
 @media (max-width: 1100px) {
     .perfil {
         display: block;
